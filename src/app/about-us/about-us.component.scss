@@ -1,0 +1,77 @@
+.about-us {
+  margin-top: 200px;
+  //   border: 2px solid greenyellow;
+  .about-us-wraper {
+    // border: 2px solid;
+    width: 1273px;
+    margin: auto;
+    background-image: url(../../assets/img/element.png);
+    background-repeat: no-repeat;
+    background-position: 1190px 470px;
+    .about-us-container {
+      display: flex;
+      .right-content {
+        .about-us-card-desc {
+          width: 486px;
+          height: 388px;
+          //   border: 1px solid royalblue;
+          margin-left: 135px;
+          margin-top: 50px;
+          .p1 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 56px;
+            margin: 0px 0px 10px 0px;
+          }
+          .p2 {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            color: #7d7987;
+            width: 415px;
+            margin-bottom: 40px;
+          }
+          ::ng-deep app-btn {
+            .learn-btn {
+              margin: unset;
+            }
+          }
+        }
+      }
+    }
+
+    .download-app-container {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 220px;
+      .right-content {
+        .download-app-card-desc {
+          width: 486px;
+          height: 388px;
+          // border: 1px solid royalblue;
+          margin-left: 118px;
+          margin-top: 50px;
+          .p1 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 56px;
+            margin: 0px 0px 10px 0px;
+          }
+          .p2 {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            color: #7d7987;
+            width: 385px;
+            margin-bottom: 40px;
+          }
+          ::ng-deep app-btn {
+            .learn-btn {
+              margin: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}

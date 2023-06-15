@@ -1,0 +1,20 @@
+<div class="service">
+  <div class="service-header">
+    <p class="p1">Our services</p>
+    <p class="p2">
+      We provide to you the best choiches for you. Adjust it to your health
+      needs and make sure your undergo treatment with our highly qualified
+      doctors you can consult with us which type of service is suitable for your
+      health
+    </p>
+  </div>
+  <div class="vector-img"><img src="../../assets/img/Vector.png"></div>
+  <div class="service-container-wraper">
+    <div class="service-container">
+      <app-card *ngFor="let service of services" [service]="service"></app-card>
+      <div class="learn-btn-wraper">
+        <app-btn [btn_title]='btn_title'></app-btn>
+      </div>
+    </div>
+  </div>
+</div>

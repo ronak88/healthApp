@@ -1,0 +1,43 @@
+.service {
+  background-image: url("../../assets/img/element2.png");
+  background-repeat: no-repeat;
+  background-position-x: 1280px;
+  background-position-y: 498px;
+  .vector-img {
+    position: absolute;
+    z-index: -2;
+    left: 150px;
+  }
+  .service-header {
+    text-align: center;
+    width: 952px;
+    margin: auto;
+    .p1 {
+      font-size: 36px;
+      font-weight: 700;
+    }
+    .p2 {
+      font-size: 18px;
+      font-weight: 300;
+      color: #7d7987;
+    }
+  }
+  .service-container-wraper {
+    width: 1120px;
+    min-height: 745px;
+    margin: auto;
+    margin-top: 80px;
+    .service-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 37px 34px;
+      justify-content: space-between;
+      app-card {
+        display: contents;
+      }
+      .learn-btn-wraper {
+        width: 100%;
+      }
+    }
+  }
+}

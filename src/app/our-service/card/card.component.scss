@@ -1,0 +1,28 @@
+.card {
+  // border: 1px solid;
+  width: 350px;
+  height: 354px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  background: white;
+  .card-img {
+    margin: 54px 0px 0px 37px;
+  }
+  .card-content {
+    .p1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      margin-left: 39px;
+    }
+    .p2 {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 28px;
+      color: #7d7987;
+      margin-left: 39px;
+      width: 266px;
+    }
+  }
+}
